@@ -26,7 +26,7 @@ export const config = {
         networkLogs: true,
         video: true
     },
-    'appium:app': process.env.APP_PATH,
+    'appium:app': "bs://"+process.env.APP_PATH,
     }
 ],
 
