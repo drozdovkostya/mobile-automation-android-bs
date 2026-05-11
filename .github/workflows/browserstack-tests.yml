@@ -15,7 +15,7 @@ jobs:
     env:
       BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
       BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
-      APP_PATH: ${{ secrets.BROWSERSTACK_APP_PATH }}
+      APP_PATH: ${{ vars.BROWSERSTACK_APP_PATH }}
 
     steps:
       - name: Checkout repository
